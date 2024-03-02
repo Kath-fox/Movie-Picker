@@ -21,6 +21,14 @@ document.addEventListener('click', function(e) {
         e.preventDefault()
         clearSearchResults()
     }
+    
+    if (e.target.id === "discover-heading") {
+        window.location.href = "/index.html"
+    }
+
+    if (e.target.id === "watchlist-heading") {
+        window.location.href = "/watchlist.html"
+    }
 })
 
 searchInput.addEventListener('input', (e) => {
