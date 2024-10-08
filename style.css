@@ -158,6 +158,12 @@ h1 span {
     left: 44px;
 }
 
+.backdrop-bookmark,
+.poster-bookmark,
+.list-bookmark {
+    cursor: pointer;
+}
+
 @media (min-width: 530px) {
     .list-bookmark {
         top: 15px;
@@ -207,6 +213,7 @@ h1 span {
     grid-column-gap: .5em;
     padding-top: 1em;
     padding-right: .5em;
+    cursor: pointer;
 }
 
 .list-item-poster {
